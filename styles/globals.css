@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    font-size: 16px;
+    @apply m-0 p-0 w-screen h-screen font-mono bg-light text-dark dark:bg-dark dark:text-light;
+  }
+  img.--rectangle {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  a {
+    @apply hover:underline underline-offset-4;
+  }
+
+  .--page {
+    @apply flex flex-col w-screen h-screen;
+  }
+}
+
+@layer components {
+  .--img-container {
+    @apply flex justify-center items-center overflow-hidden aspect-square;
+  }
+}
+
+@layer utilities {
+}
