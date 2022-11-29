@@ -20,14 +20,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>
-          <title>Riccox</title>
-          <link
-            rel="shortcut icon"
-            href="//assets.riccox.com/logo/solid-rounded.svg"
-            type="image/x-icon"
-          />
-        </Head>
+        <Head />
         <body>
           <Main />
           <NextScript />

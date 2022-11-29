@@ -4,7 +4,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: "media",
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
@@ -14,6 +14,9 @@ module.exports = {
         brandVia: "#D946EF",
         brandTo: "#6366F1",
         uncolor: "#999",
+      },
+      fontFamily: {
+        code: ["Noto Sans SC", "sans-serif"],
       },
     },
   },

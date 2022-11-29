@@ -1,0 +1,205 @@
+{
+  "dob": "Month of birth",
+  "city": "City",
+  "email": "Email",
+  "wechat": "Wechat",
+  "profile": {
+    "name": "Ricco Xie",
+    "title": "WEB Dev Super Fan",
+    "dob": "April 2000",
+    "city": "Tianjin/Hunan, China"
+  },
+  "about": "About Me",
+  "doing": "What I'm Doing",
+  "intro": {
+    "about": "I'm a Web Fullstack developer from Hunan, China, working in web development. I enjoy turning complex problems into simple, beautiful and intuitive designs.\n\nMy job is to build website & mobile APP so that it is functional and user-friendly but at the same time attractive. \n\nMoreover, I also work for my personal amazing open source products which focus on web infra software to make developers easy to use. \n\nMy aim is to bring across your message and data in the most creative way.",
+    "doing": [
+      {
+        "title": "WEB Development",
+        "description": "High-quality development of sites & backend servers at the professional level."
+      },
+      {
+        "title": "Mobile APP",
+        "description": "Professional development of applications for multi-platform Apps includes iOS & Android & Wechat mini-program."
+      },
+      {
+        "title": "Open Source Infrastructure Software",
+        "description": "Personal open source WEB infrastructure software, facilitating developers to reuse integrated basic function modules"
+      }
+    ]
+  },
+  "experience": "Experience",
+  "study": "Study",
+  "work": "Work",
+  "skill": "Skill",
+  "experiences": {
+    "study": [
+      {
+        "school": "CAUC (Civil Aviation University of China), School of Safety Science and Engineering",
+        "time": "2021.09 ~ Current",
+        "major": "Applied Psychology Bachelor"
+      },
+      {
+        "school": "CAUC (Civil Aviation University of China), Flight Academy",
+        "time": "2017.09 ~ 2021.06",
+        "major": "Flight technology Bachelor"
+      },
+      {
+        "school": "Hengnan No. 1 Middle School",
+        "time": "2014.09 ~ 2017.06",
+        "major": "High School Science"
+      }
+    ],
+    "work": [
+      {
+        "title": "Fullstack WEB Engineer",
+        "time": "2020.01 ~ Current",
+        "description": "Complete the front-end & back-end & APP development of the full life cycle for individual project products"
+      }
+    ]
+  },
+  "language": [
+    "English, Daily communication（China Mainland IELTS score 6）、aviation、programming relative",
+    "Mandarin,  Native speaker"
+  ],
+  "skills": [
+    {
+      "title": "Language",
+      "items": [
+        {
+          "label": "Simplified Chinese（native-speaker）",
+          "percentage": 95
+        },
+        {
+          "label": "English（Oral）",
+          "percentage": 80
+        },
+        {
+          "label": "English（Programing）",
+          "percentage": 70
+        },
+        {
+          "label": "English（Aviation）",
+          "percentage": 90
+        }
+      ]
+    },
+    {
+      "title": "Backend Development",
+      "items": [
+        {
+          "label": "Node.js (Nest.js)",
+          "percentage": 85
+        },
+        {
+          "label": "Java (Spring)",
+          "percentage": 85
+        },
+        {
+          "label": "Database (MySQL/PostgreSQL/Redis/MongoDB)",
+          "percentage": 85
+        },
+        {
+          "label": "Message Queue (RabbitMQ)",
+          "percentage": 85
+        },
+        {
+          "label": "Search Engine (ElasticSearch/MeiliSearch)",
+          "percentage": 70
+        },
+        {
+          "label": "Server Gateway (Nginx/Kong/APISIX)",
+          "percentage": 75
+        },
+        {
+          "label": "Tracking (OpenTracing)",
+          "percentage": 80
+        },
+        {
+          "label": "Payment (WechatPay/AliPay)",
+          "percentage": 85
+        }
+      ]
+    },
+    {
+      "title": "Project Management",
+      "items": [
+        {
+          "label": "Git",
+          "percentage": 80
+        },
+        {
+          "label": "Cloud Service (AWS/TencentCloud/AlibabaCloud/Vercel/Cloudflare)",
+          "percentage": 85
+        }
+      ]
+    },
+    {
+      "title": "Frontend Development",
+      "items": [
+        {
+          "label": "HTML/CSS",
+          "percentage": 85
+        },
+        {
+          "label": "Javascript/Typescript",
+          "percentage": 90
+        },
+        {
+          "label": "React (Next.js)",
+          "percentage": 85
+        },
+        {
+          "label": "Vue",
+          "percentage": 80
+        },
+        {
+          "label": "Vite",
+          "percentage": 75
+        },
+        {
+          "label": "TailwindCSS",
+          "percentage": 95
+        },
+        {
+          "label": "Cross platform frontend (UNI-APP/Taro.js)",
+          "percentage": 80
+        }
+      ]
+    },
+    {
+      "title": "IT Operation & Maintenance",
+      "items": [
+        {
+          "label": "Linux (CentOS)",
+          "percentage": 75
+        },
+        {
+          "label": "DevOps (CI/CD)",
+          "percentage": 90
+        },
+        {
+          "label": "Docker",
+          "percentage": 95
+        },
+        {
+          "label": "Kubernetes",
+          "percentage": 90
+        }
+      ]
+    },
+    {
+      "title": "Design",
+      "items": [
+        {
+          "label": "Figma",
+          "percentage": 80
+        },
+        {
+          "label": "Adobe illustrator",
+          "percentage": 70
+        }
+      ]
+    }
+  ]
+}

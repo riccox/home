@@ -1,0 +1,30 @@
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: true;
+}
+
+@keyframes spin {
+    0% {
+        --rotate: 0deg;
+    }
+    100% {
+        --rotate: 360deg;
+    }
+}
+
+.container {
+    @apply relative;
+    @apply w-3/4 h-4/5 sm:w-1/2 sm:h-3/4 lg:w-1/4 xl:w-2/5 2xl:w-1/4 lg:h-2/3;
+}
+
+.magic {
+    @apply absolute w-full h-full inset-0 top-4 opacity-100;
+    margin: 0 auto;
+    transform: scale(0.9);
+    filter: blur(2vw);
+    background-image: linear-gradient(
+            var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
+    transition: opacity .5s;
+    animation: spin 2.5s linear infinite;
+}

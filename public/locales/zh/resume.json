@@ -1,0 +1,201 @@
+{
+  "dob": "出生年月",
+  "city": "城市",
+  "email": "电子邮箱",
+  "wechat": "微信",
+  "profile": {
+    "name": "谢烨",
+    "title": "WEB开发爱好者",
+    "dob": "2000年 4月",
+    "city": "中国 天津/湖南"
+  },
+  "about": "关于我",
+  "doing": "我正在做的",
+  "intro": {
+    "about": "我是一位来自中国湖南的Web全栈开发人员，从事Web开发。我喜欢将复杂的问题转化为简单、美观和直观的设计。\n\n我的工作是构建网站与移动APP，使其功能强大、用户友好，同时又具有吸引力。\n\n此外，我还为我个人的开源产品工作，专注于WEB基础设施软件，使开发人员易于使用。\n\n我的目标是以最具创意的方式传达您的信息和数据。",
+    "doing": [
+      {
+        "title": "WEB 开发",
+        "description": "高质量开发专业级别的网站和后端服务器"
+      },
+      {
+        "title": "移动应用APP",
+        "description": "多平台应用程序的专业开发包括iOS、Android和微信小程序"
+      },
+      {
+        "title": "开源基础设施软件",
+        "description": "个人开源的WEB基础设施软件，方便开发者复用集成基础功能模块"
+      }
+    ]
+  },
+  "experience": "经历",
+  "study": "学习",
+  "work": "工作",
+  "skill": "技能",
+  "experiences": {
+    "study": [
+      {
+        "school": "中国民航大学 安全科学与工程学院",
+        "time": "2021.09 ~ 现在",
+        "major": "应用心理学 本科"
+      },
+      {
+        "school": "中国民航大学 飞行分校",
+        "time": "2017.09 ~ 2021.06",
+        "major": "飞行技术 本科"
+      },
+      {
+        "school": "衡南县第一中学",
+        "time": "2014.09 ~ 2017.06",
+        "major": "高中理科"
+      }
+    ],
+    "work": [
+      {
+        "title": "全栈WEB开发工程师",
+        "time": "2020.01 ~ 现在",
+        "description": "为个人项目产品完成全生命周期前后端&APP开发"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "title": "语言",
+      "items": [
+        {
+          "label": "中文普通话（母语）",
+          "percentage": 95
+        },
+        {
+          "label": "英语（口语）",
+          "percentage": 80
+        },
+        {
+          "label": "英语（编程）",
+          "percentage": 70
+        },
+        {
+          "label": "英语（航空）",
+          "percentage": 90
+        }
+      ]
+    },
+    {
+      "title": "后端开发",
+      "items": [
+        {
+          "label": "Node.js (Nest.js)",
+          "percentage": 85
+        },
+        {
+          "label": "Java (Spring)",
+          "percentage": 85
+        },
+        {
+          "label": "数据库 (MySQL/PostgreSQL/Redis/MongoDB)",
+          "percentage": 85
+        },
+        {
+          "label": "消息队列 (RabbitMQ)",
+          "percentage": 85
+        },
+        {
+          "label": "搜索引擎 (ElasticSearch/MeiliSearch)",
+          "percentage": 70
+        },
+        {
+          "label": "网关 (Nginx/Kong/APISIX)",
+          "percentage": 75
+        },
+        {
+          "label": "链路追踪 (OpenTracing)",
+          "percentage": 80
+        },
+        {
+          "label": "支付对接 (WechatPay/AliPay)",
+          "percentage": 85
+        }
+      ]
+    },
+    {
+      "title": "项目管理",
+      "items": [
+        {
+          "label": "Git",
+          "percentage": 80
+        },
+        {
+          "label": "云服务 (AWS/腾讯云/阿里云/Vercel/Cloudflare)",
+          "percentage": 85
+        }
+      ]
+    },
+    {
+      "title": "前端开发",
+      "items": [
+        {
+          "label": "HTML/CSS",
+          "percentage": 85
+        },
+        {
+          "label": "Javascript/Typescript",
+          "percentage": 90
+        },
+        {
+          "label": "React (Next.js)",
+          "percentage": 85
+        },
+        {
+          "label": "Vue",
+          "percentage": 80
+        },
+        {
+          "label": "Vite",
+          "percentage": 75
+        },
+        {
+          "label": "TailwindCSS",
+          "percentage": 95
+        },
+        {
+          "label": "跨平台前端 (UNI-APP/Taro.js)",
+          "percentage": 80
+        }
+      ]
+    },
+    {
+      "title": "IT运维",
+      "items": [
+        {
+          "label": "Linux (CentOS)",
+          "percentage": 75
+        },
+        {
+          "label": "DevOps (CI/CD)",
+          "percentage": 90
+        },
+        {
+          "label": "Docker",
+          "percentage": 95
+        },
+        {
+          "label": "Kubernetes",
+          "percentage": 90
+        }
+      ]
+    },
+    {
+      "title": "设计",
+      "items": [
+        {
+          "label": "Figma",
+          "percentage": 80
+        },
+        {
+          "label": "Adobe illustrator",
+          "percentage": 70
+        }
+      ]
+    }
+  ]
+}
