@@ -1,0 +1,115 @@
+{
+  "title": "项目概况",
+  "projects": [
+    {
+      "name": "Meilisearch-UI",
+      "link": "https://github.com/riccox/meilisearch-ui",
+      "github": "https://github.com/riccox/meilisearch-ui",
+      "status": {
+        "label": "生产版本",
+        "color": "green"
+      },
+      "description": "一个开源、漂亮、简单、快速的 Meilisearch 管理仪表板UI，用于管理您的 meilisearch 实例",
+      "logo": "https://meilisearch-ui.riccox.com/meili-logo.svg",
+      "tags": [
+        "Meilisearch",
+        "管理面板"
+      ]
+    },
+    {
+      "name": "Sira",
+      "link": "https://github.com/riccox/sira",
+      "github": "https://github.com/riccox/sira",
+      "logo": "https://assets.riccox.com/sira/logo/plain.svg",
+      "status": {
+        "label": "开发中",
+        "color": "purple"
+      },
+      "description": "一个开源、高度自定义且可访问的设计系统，目前提供 TailwindCSS 组件类名库",
+      "tags": [
+        "UI",
+        "设计系统",
+        "TailwindCSS",
+        "前端组件"
+      ]
+    },
+    {
+      "name": "Turo",
+      "link": "https://github.com/riccox/turo",
+      "github": "https://github.com/riccox/turo",
+      "status": {
+        "label": "开发中",
+        "color": "purple"
+      },
+      "description": "一个开源、漂亮且快速的 URL 缩短服务，使用 Redis® 进行数据存储",
+      "tags": [
+        "短网址",
+        "URL",
+        "Redis®"
+      ]
+    },
+    {
+      "name": "Aura",
+      "link": "https://github.com/riccox/aura",
+      "github": "https://github.com/riccox/aura",
+      "status": {
+        "label": "计划中",
+        "color": "grey"
+      },
+      "description": "一个开源、高度自定义的用户管理中台，提供一系列 API 接口为集成用户模块开发提速",
+      "tags": [
+        "授权",
+        "用户管理",
+        "登录",
+        "第三方登录"
+      ]
+    },
+    {
+      "name": "Radioman",
+      "link": "https://github.com/riccox/radioman",
+      "github": "https://github.com/riccox/radioman",
+      "status": {
+        "label": "计划中",
+        "color": "grey"
+      },
+      "description": "一个开源的即时消息平台，方便开发者快速集成实时消息功能",
+      "tags": [
+        "实时消息",
+        "消息传递",
+        "WebSocket",
+        "Socket.IO"
+      ]
+    },
+    {
+      "name": "Sonatrax",
+      "link": "https://github.com/riccox/sonatrax",
+      "github": "https://github.com/riccox/sonatrax",
+      "status": {
+        "label": "计划中",
+        "color": "grey"
+      },
+      "description": "一个开源的分析追踪平台，可编程式的在应用中接入分析",
+      "tags": [
+        "事件",
+        "分析",
+        "追踪",
+        "键值对标签"
+      ]
+    },
+    {
+      "name": "Versi",
+      "link": "https://github.com/riccox/versi",
+      "github": "https://github.com/riccox/versi",
+      "status": {
+        "label": "计划中",
+        "color": "grey"
+      },
+      "description": "一个开源轻量化的应用版本管理器，提供可复用的版本控制接口",
+      "tags": [
+        "版本管理",
+        "WEB应用",
+        "APP"
+      ]
+    }
+  ]
+}

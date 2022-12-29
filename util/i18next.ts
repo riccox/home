@@ -2,7 +2,7 @@ import i18n, { Resource, ResourceLanguage } from "i18next";
 import { initReactI18next } from "react-i18next";
 
 export const SUPPORTED_LANGUAGES = ["en", "zh"];
-export const NAMESPACES = ["resume"];
+export const NAMESPACES = ["resume", "projects"];
 
 const getResource = () => {
   const ret: Resource = {};
@@ -37,5 +37,6 @@ i18n
       transKeepBasicHtmlNodesFor: ["br", "strong", "i"],
       useSuspense: false,
     },
+    returnObjects: true,
   });
 export default i18n;

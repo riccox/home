@@ -1,26 +1,31 @@
 import { FC, ReactNode, useCallback } from "react";
+import Link from "next/link";
 
 interface ResumeDoingCardProps {
   icon: ReactNode;
   title: string;
   description: string;
+  link?: string;
 }
 
 export const ResumeDoingCard: FC<ResumeDoingCardProps> = ({
   icon,
   title,
   description,
+  link,
 }) => {
+  const Wrapper = link ? Link : "div";
   return (
-    <div
-      className={`flex flex-col md:flex-row bg-white dark:bg-black rounded-2xl drop-shadow-xl p-4 gap-2`}
+    <Wrapper
+      href={link as string}
+      className={`decoration-transparent flex flex-col md:flex-row bg-white dark:bg-black rounded-2xl drop-shadow-xl p-4 gap-2`}
     >
       <div className={`w-fit`}>{icon}</div>
       <div className={`flex flex-col items-stretch p-1`}>
         <div className={`font-semibold leading-8`}>{title}</div>
         <p className={`font-light whitespace-pre-wrap`}>{description}</p>
       </div>
-    </div>
+    </Wrapper>
   );
 };
 
@@ -31,6 +36,7 @@ interface ResumeSkillsStatsCardProps {
     percentage: number;
   }[];
 }
+
 export const ResumeSkillsStatsCard: FC<ResumeSkillsStatsCardProps> = ({
   title,
   items = [],

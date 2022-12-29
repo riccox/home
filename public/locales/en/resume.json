@@ -1,4 +1,5 @@
 {
+  "title": "Resume",
   "dob": "Month of birth",
   "city": "City",
   "email": "Email",
@@ -25,6 +26,10 @@
       {
         "title": "Open Source Infrastructure Software",
         "description": "Personal open source WEB infrastructure software, facilitating developers to reuse integrated basic function modules"
+      },
+      {
+        "title": "More",
+        "description": "View an overview of all my projects"
       }
     ]
   },

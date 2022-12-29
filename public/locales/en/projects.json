@@ -1,0 +1,117 @@
+{
+  "title": "Projects",
+  "projects": [
+    {
+      "name": "Meilisearch-UI",
+      "link": "https://github.com/riccox/meilisearch-ui",
+      "github": "https://github.com/riccox/meilisearch-ui",
+      "status": {
+        "label": "Production",
+        "color": "green"
+      },
+      "description":
+      "An open-source, pretty, simple and fast meilisearch admin dashboard UI for managing your meilisearch instances",
+      "logo": "https://meilisearch-ui.riccox.com/meili-logo.svg",
+      "tags": [
+        "Meilisearch",
+        "Admin",
+        "Dashboard"
+      ]
+    },
+    {
+      "name": "Sira",
+      "link": "https://github.com/riccox/sira",
+      "github": "https://github.com/riccox/sira",
+      "status": {
+        "label": "Developing",
+        "color": "purple"
+      },
+      "description": "An open source, highly customized and accessible design system, which currently provides TailwindCSS component class name library",
+      "logo": "https://assets.riccox.com/sira/logo/plain.svg",
+      "tags": [
+        "UI",
+        "design-system",
+        "TailwindCSS",
+        "frontend component"
+      ]
+    },
+    {
+      "name": "Turo",
+      "link": "https://github.com/riccox/turo",
+      "github": "https://github.com/riccox/turo",
+      "status": {
+        "label": "Developing",
+        "color": "purple"
+      },
+      "description": "An open-source, pretty and fast url shorten app, use Redis® as database",
+      "tags": [
+        "URL-Shorten",
+        "url",
+        "Redis®"
+      ]
+    },
+    {
+      "name": "Aura",
+      "link": "https://github.com/riccox/aura",
+      "github": "https://github.com/riccox/aura",
+      "status": {
+        "label": "Planed",
+        "color": "grey"
+      },
+      "description": "An open source, highly customized user management platform that provides a series of API interfaces to speed up the development of integrated user modules",
+      "tags": [
+        "auth",
+        "user-management",
+        "login",
+        "connect"
+      ]
+    },
+    {
+      "name": "Radioman",
+      "link": "https://github.com/riccox/radioman",
+      "github": "https://github.com/riccox/radioman",
+      "status": {
+        "label": "Planed",
+        "color": "grey"
+      },
+      "description": "An open source instant messaging platform for developers to quickly integrate real-time messaging functions",
+      "tags": [
+        "realtime",
+        "message",
+        "WebSocket",
+        "Socket.IO"
+      ]
+    },
+    {
+      "name": "Sonatrax",
+      "link": "https://github.com/riccox/sonatrax",
+      "github": "https://github.com/riccox/sonatrax",
+      "status": {
+        "label": "Planed",
+        "color": "grey"
+      },
+      "description": "An open source analysis and tracking platform, which can be programmed to realize analysis in applications",
+      "tags": [
+        "event",
+        "analysis",
+        "tracking",
+        "kv-labeled"
+      ]
+    },
+    {
+      "name": "Versi",
+      "link": "https://github.com/riccox/versi",
+      "github": "https://github.com/riccox/versi",
+      "status": {
+        "label": "Planed",
+        "color": "grey"
+      },
+      "description": "An open source lightweight application version manager that provides reusable version control interfaces",
+      "tags": [
+        "version-management",
+        "WEB",
+        "APP"
+      ]
+    }
+  ]
+}

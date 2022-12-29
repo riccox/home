@@ -31,10 +31,6 @@
         scrollbar-color: rgb(150, 150, 150) transparent;
     }
 
-    * {
-        scrollbar-width: 0.3rem;
-        scrollbar-color: transparent;
-    }
 
     /* Works on Chrome, Edge, and Safari */
     *::-webkit-scrollbar {
@@ -61,6 +57,14 @@
     *::-webkit-scrollbar-thumb {
         background-color: transparent;
     }
+
+    *::-webkit-scrollbar-corner {
+        background-color: transparent;
+    }
+
+    * {
+        @apply ease-in-out duration-300 transition-all;
+    }
 }
 
 @layer components {
@@ -70,4 +74,7 @@
 }
 
 @layer utilities {
+    .--border {
+        @apply border border-neutral-300 dark:border-neutral-800;
+    }
 }

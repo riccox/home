@@ -15,6 +15,7 @@ import {
 import {
   FcCommandLine,
   FcMultipleSmartphones,
+  FcTodoList,
   FcWorkflow,
 } from "react-icons/fc";
 import { ResumeTimeline } from "../components/Timeline/resume";
@@ -30,7 +31,7 @@ export default function Resume() {
 
   return (
     <>
-      <NextSeo title={"Resume"} />
+      <NextSeo title={t('title') as string} />
       <div
         className={`justify-center items-start text-gray-600 dark:text-gray-300 px-10 py-[3vw] gap-10 
         --page flex-row flex-wrap overflow-scroll bg-fixed bg-cover
@@ -158,6 +159,12 @@ export default function Resume() {
                 icon={<FcWorkflow size={"5rem"} />}
                 title={t("intro.doing.2.title")}
                 description={t("intro.doing.2.description")}
+              />
+              <ResumeDoingCard
+                icon={<FcTodoList size={"5rem"} />}
+                title={t("intro.doing.3.title")}
+                description={t("intro.doing.3.description")}
+                link={'/projects'}
               />
             </div>
           </div>
