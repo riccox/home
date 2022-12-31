@@ -7,6 +7,7 @@ import {
   FaEnvelope,
   FaGithub,
   FaLocationArrow,
+  FaRegFilePdf,
   FaTwitter,
   FaUserGraduate,
   FaWeixin,
@@ -23,15 +24,16 @@ import {
   ResumeDoingCard,
   ResumeSkillsStatsCard,
 } from "../components/Card/rusume";
+import { TooltipWrapper } from "react-tooltip";
 
 const skillsCardsData = [4, 8, 2, 7, 4, 2];
 
 export default function Resume() {
-  const { t } = useTranslation("resume");
+  const { t, i18n } = useTranslation("resume");
 
   return (
     <>
-      <NextSeo title={t('title') as string} />
+      <NextSeo title={t("title") as string} />
       <div
         className={`justify-center items-start text-gray-600 dark:text-gray-300 px-10 py-[3vw] gap-10 
         --page flex-row flex-wrap overflow-scroll bg-fixed bg-cover
@@ -39,95 +41,109 @@ export default function Resume() {
       >
         {/* profile card */}
         <div
-          className={`xl:sticky xl:top-[4vw] w-full xl:w-auto bg-light dark:bg-dark rounded-3xl flex flex-col items-stretch shadow-2xl`}
+          className={`xl:sticky xl:top-[4vw] w-full xl:w-auto flex flex-col items-stretch gap-6`}
         >
           <div
-            className={`flex flex-col items-center px-12 py-4 gap-[2vw] md:gap-[1vw]`}
+            className={`w-full bg-light dark:bg-dark rounded-3xl flex flex-col items-stretch shadow-2xl`}
           >
             <div
-              className={`--img-container drop-shadow-2xl rounded-3xl w-[16vw] md:w-[12vw] lg:w-[8vw] self-center xl:-translate-y-1/2
+              className={`flex flex-col items-center px-12 py-4 gap-[2vw] md:gap-[1vw]`}
+            >
+              <div
+                className={`--img-container drop-shadow-2xl rounded-3xl w-[16vw] md:w-[12vw] lg:w-[8vw] self-center xl:-translate-y-1/2
                 ease-in-out duration-300 transition-all hover:shadow-xl`}
-            >
-              <img
-                src="//assets.riccox.com/member/avatar/ricco-animated-1.jpg"
-                alt={"ricco-animated-avatar"}
-              />
-            </div>
-            <div
-              className={`xl:-mt-[40%] text-3xl font-bolder text-center tracking-wide hover:underline underline-offset-4`}
-            >
-              {t("profile.name")}
-            </div>
-            <div
-              className={`ease-in-out duration-300 transition-colors rounded-3xl 
+              >
+                <img
+                  src="//assets.riccox.com/member/avatar/ricco-animated-1.jpg"
+                  alt={"ricco-animated-avatar"}
+                />
+              </div>
+              <div
+                className={`xl:-mt-[40%] text-3xl font-bolder text-center tracking-wide hover:underline underline-offset-4`}
+              >
+                {t("profile.name")}
+              </div>
+              <div
+                className={`ease-in-out duration-300 transition-colors rounded-3xl 
               bg-gray-200 dark:bg-gray-700 text-sm
                 py-1.5 px-5 text-center tracking-wider ring-purple-600 dark:ring-purple-400
                 dark:hover:bg-purple-800 dark:hover:text-purple-200
                 hover:ring-2 hover:bg-purple-100 hover:text-purple-700 ring-offset-2`}
+              >
+                {t("profile.title")}
+              </div>
+              <div className={`flex justify-center items-center gap-5`}>
+                <a
+                  href={"https://github.com/riccox"}
+                  className={`hover:text-zinc-500`}
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <FaGithub />
+                </a>
+                <a
+                  href={"https://twitter.com/riccoxie"}
+                  className={`hover:text-sky-500`}
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <FaTwitter />
+                </a>
+                <a
+                  href={"https://zhihu.com/people/riccoxie"}
+                  className={`hover:text-blue-600 scale-150`}
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  <FaZhihu />
+                </a>
+              </div>
+            </div>
+            <div
+              className={`bg-gray-200 dark:bg-neutral-900 rounded-[0_0_1.5rem_1.5rem] flex flex-col items-stretch py-8 px-10`}
             >
-              {t("profile.title")}
-            </div>
-            <div className={`flex justify-center items-center gap-5`}>
-              <a
-                href={"https://github.com/riccox"}
-                className={`hover:text-zinc-500`}
-                target={"_blank"}
-                rel="noreferrer"
-              >
-                <FaGithub />
-              </a>
-              <a
-                href={"https://twitter.com/riccoxie"}
-                className={`hover:text-sky-500`}
-                target={"_blank"}
-                rel="noreferrer"
-              >
-                <FaTwitter />
-              </a>
-              <a
-                href={"https://zhihu.com/people/riccoxie"}
-                className={`hover:text-blue-600 scale-150`}
-                target={"_blank"}
-                rel="noreferrer"
-              >
-                <FaZhihu />
-              </a>
+              <div className={`flex flex-col items-start gap-4 text-sm`}>
+                <TooltipWrapper content={t("dob") as string}>
+                  <div
+                    className={`flex items-center gap-5 hover:text-orange-600`}
+                  >
+                    <FaCalendarWeek />
+                    <span>{t("profile.dob")}</span>
+                  </div>
+                </TooltipWrapper>
+                <TooltipWrapper content={t("city") as string}>
+                  <div className={`flex items-center gap-5 hover:text-sky-600`}>
+                    <FaLocationArrow />
+                    <span>{t("profile.city")}</span>
+                  </div>
+                </TooltipWrapper>
+                <TooltipWrapper content={t("email") as string}>
+                  <div className={`flex items-center gap-5 hover:text-red-500`}>
+                    <FaEnvelope />
+                    <span>ricco@riccox.com</span>
+                  </div>
+                </TooltipWrapper>
+                <TooltipWrapper content={t("wechat") as string}>
+                  <div
+                    className={`flex items-center gap-5 hover:text-green-600`}
+                  >
+                    <FaWeixin className={`scale-125`} />
+                    <span>riccoxie</span>
+                  </div>
+                </TooltipWrapper>
+              </div>
             </div>
           </div>
-          <div
-            className={`bg-gray-200 dark:bg-neutral-900 rounded-[0_0_1.5rem_1.5rem] flex flex-col items-stretch py-8 px-10`}
+          <a
+            className={`shadow hover:ring ring-blue-600 --transition bg-blue-500 rounded-xl 
+            w-full h-10 tracking-wide decoration-transparent text-white --flex-center gap-2`}
+            href={`https://rxresu.me/riccoxie10/programmer-${i18n.language}`}
+            rel={"noreferrer"}
+            target={"_blank"}
           >
-            <div className={`flex flex-col items-start gap-4 text-sm`}>
-              <div
-                className={`flex items-center gap-5 hover:text-orange-600`}
-                data-tip={t("dob")}
-              >
-                <FaCalendarWeek />
-                <span>{t("profile.dob")}</span>
-              </div>
-              <div
-                className={`flex items-center gap-5 hover:text-sky-600`}
-                data-tip={t("city")}
-              >
-                <FaLocationArrow />
-                <span>{t("profile.city")}</span>
-              </div>
-              <div
-                className={`flex items-center gap-5 hover:text-red-500`}
-                data-tip={t("email")}
-              >
-                <FaEnvelope />
-                <span>ricco@riccox.com</span>
-              </div>
-              <div
-                className={`flex items-center gap-5 hover:text-green-600`}
-                data-tip={t("wechat")}
-              >
-                <FaWeixin className={`scale-125`} />
-                <span>riccoxie</span>
-              </div>
-            </div>
-          </div>
+            <FaRegFilePdf className={``} />
+            {t("pdf")}
+          </a>
         </div>
         {/* main content */}
         <div
@@ -164,7 +180,7 @@ export default function Resume() {
                 icon={<FcTodoList size={"5rem"} />}
                 title={t("intro.doing.3.title")}
                 description={t("intro.doing.3.description")}
-                link={'/projects'}
+                link={"/projects"}
               />
             </div>
           </div>

@@ -6,10 +6,11 @@
   "wechat": "微信",
   "profile": {
     "name": "谢烨",
-    "title": "WEB开发爱好者",
+    "title": "WEB开发者",
     "dob": "2000年 4月",
     "city": "中国 天津/湖南"
   },
+  "pdf": "获取PDF版本简历",
   "about": "关于我",
   "doing": "我正在做的",
   "intro": {

@@ -37,8 +37,8 @@ export default function Projects() {
             <div className={` text-4xl font-bold`}>{t("title")}</div>
             <a
               href="https://www.buymeacoffee.com/riccoxie"
-              target={'_blank'}
-              rel={'noreferrer'}
+              target={"_blank"}
+              rel={"noreferrer"}
               className={`--img-container aspect-auto drop-shadow xl:w-[8vw] md:w-[16vw] w-[28vw]`}
             >
               <img
@@ -52,7 +52,7 @@ export default function Projects() {
           >
             {projects.map((p) => (
               <div
-                className={`--border dark:bg-neutral-900 rounded-2xl flex justify-between 
+                className={`--transition --border dark:bg-neutral-900 rounded-2xl flex justify-between 
                  p-4 gap-3
                  md:p-6
                  xl:p-10
